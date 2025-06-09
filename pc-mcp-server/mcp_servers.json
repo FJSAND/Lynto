@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "amap": {
+      "name": "高德地图",
+      "description": "高德地图API服务：地理编码、路径规划、POI搜索等",
+      "command": ["npx", "-y", "@amap/amap-maps-mcp-server"],
+      "env": {
+        "AMAP_MAPS_API_KEY": "your-api-key"
+      },
+      "prefix": "amap"
+    },
+    "official": {
+      "name": "官方示例",
+      "description": "官方MCP示例服务器：echo、add、time工具",
+      "command": ["python3", "official_mcp_server.py", "--mode", "stdio"],
+      "env": {},
+      "prefix": "demo"
+    }
+  },
+  "gateway": {
+    "port": 8765,
+    "host": "0.0.0.0",
+    "name": "MCP统一网关",
+    "version": "1.0.0"
+  }
+} 
