@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灵拓 Lynto - 智能聊天应用</title>
+    <meta name="description" content="灵拓 Lynto - 集成DeepSeek AI和Model Context Protocol的现代iOS聊天应用">
+    <meta name="keywords" content="AI聊天,iOS应用,DeepSeek,MCP,Swift,灵拓,Lynto">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-icon">🤖</span>
+                    <span class="logo-text">灵拓 Lynto</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">功能特性</a></li>
+                    <li><a href="#download">下载</a></li>
+                    <li><a href="#docs">文档</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="privacy.html">隐私协议</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            智能对话，<br>
+                            <span class="gradient-text">无限可能</span>
+                        </h1>
+                        <p class="hero-description">
+                            灵拓 Lynto 是一款集成了 DeepSeek AI 和 Model Context Protocol 的现代 iOS 聊天应用。
+                            体验前所未有的智能对话，享受流畅的交互体验。
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#download" class="btn btn-primary">立即下载</a>
+                            <a href="https://github.com/your-repo/Lynto" class="btn btn-secondary">查看源码</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="chat-preview">
+                                    <div class="chat-message user">
+                                        <div class="message-bubble">你好，请帮我分析一下今天的天气</div>
+                                    </div>
+                                    <div class="chat-message ai">
+                                        <div class="message-bubble">正在为您获取天气信息...</div>
+                                    </div>
+                                    <div class="typing-indicator">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 功能特性 -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">强大的功能特性</h2>
+                    <p class="section-description">为您打造最佳的AI对话体验</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>DeepSeek AI 集成</h3>
+                        <p>集成先进的DeepSeek AI模型，提供智能、准确的对话体验</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>现代 SwiftUI 界面</h3>
+                        <p>基于SwiftUI构建的美观现代界面，流畅的用户体验</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h3>MCP 协议支持</h3>
+                        <p>支持Model Context Protocol，可扩展的工具集成能力</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>JSON 配置导入</h3>
+                        <p>简单粘贴即可添加MCP服务器，配置管理更便捷</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛠️</div>
+                        <h3>工具测试功能</h3>
+                        <p>直接在应用中测试MCP工具，开发调试更高效</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>安全的密钥管理</h3>
+                        <p>安全的API密钥配置管理，保护您的隐私数据</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技术栈 -->
+        <section class="tech-stack">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">先进的技术栈</h2>
+                    <p class="section-description">基于现代技术构建，性能卓越</p>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <div class="tech-icon">
+                            <img src="https://developer.apple.com/assets/elements/icons/swift/swift-96x96_2x.png" alt="Swift">
+                        </div>
+                        <span>Swift 5.9+</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">
+                            <img src="https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png" alt="SwiftUI">
+                        </div>
+                        <span>SwiftUI</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">🌐</div>
+                        <span>URLSession</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">🔗</div>
+                        <span>MCP SDK</span>
+                    </div>
+                    <div class="tech-item">
+                        <div class="tech-icon">🏗️</div>
+                        <span>MVVM 架构</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 下载区域 -->
+        <section id="download" class="download">
+            <div class="container">
+                <div class="download-content">
+                    <div class="download-text">
+                        <h2>立即体验灵拓 Lynto</h2>
+                        <p>加入数千名用户，开始您的智能对话之旅</p>
+                        <div class="system-requirements">
+                            <h4>系统要求</h4>
+                            <ul>
+                                <li>iPhone (iOS 15.0+)</li>
+                                <li>iPad (iPadOS 15.0+)</li>
+                                <li>开发需要 Xcode 15.0+</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="download-buttons">
+                        <a href="https://github.com/your-repo/Lynto/releases" class="btn btn-download">
+                            <span class="download-icon">📱</span>
+                            <div class="download-info">
+                                <span class="download-title">从 GitHub 下载</span>
+                                <span class="download-subtitle">获取最新版本</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/your-repo/Lynto" class="btn btn-github">
+                            <span class="download-icon">📋</span>
+                            <div class="download-info">
+                                <span class="download-title">查看源代码</span>
+                                <span class="download-subtitle">开源项目</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 文档链接 -->
+        <section id="docs" class="docs">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">完整的文档指南</h2>
+                    <p class="section-description">从入门到精通，全面的文档支持</p>
+                </div>
+                <div class="docs-grid">
+                    <div class="doc-card">
+                        <div class="doc-icon">📱</div>
+                        <h3>使用指南</h3>
+                        <p>如何使用应用的完整指南，适合所有用户</p>
+                        <a href="docs/USAGE_GUIDE.md" class="doc-link">查看文档 →</a>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon">🔧</div>
+                        <h3>MCP 配置指南</h3>
+                        <p>MCP服务器配置详细教程，工具集成说明</p>
+                        <a href="docs/MCP_CONFIGURATION_GUIDE.md" class="doc-link">查看文档 →</a>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon">⚙️</div>
+                        <h3>开发设置</h3>
+                        <p>Xcode项目设置和依赖配置，开发者必备</p>
+                        <a href="docs/SETUP_INSTRUCTIONS.md" class="doc-link">查看文档 →</a>
+                    </div>
+                    <div class="doc-card">
+                        <div class="doc-icon">🛠️</div>
+                        <h3>技术文档</h3>
+                        <p>项目架构和实现细节，深入了解应用</p>
+                        <a href="docs/README.md" class="doc-link">查看文档 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我们 -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>关于灵拓 Lynto</h2>
+                        <p>
+                            灵拓 Lynto 是一个开源项目，致力于将最新的AI技术带到iOS平台。
+                            我们相信智能对话应该是流畅、安全且可扩展的。
+                        </p>
+                        <p>
+                            通过集成DeepSeek AI和Model Context Protocol，我们为用户提供了一个
+                            功能强大且易于使用的聊天应用，同时为开发者提供了灵活的扩展能力。
+                        </p>
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">开源</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">Swift</div>
+                                <div class="stat-label">原生开发</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">MCP</div>
+                                <div class="stat-label">协议支持</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="code-preview">
+                            <div class="code-header">
+                                <span class="code-dot red"></span>
+                                <span class="code-dot yellow"></span>
+                                <span class="code-dot green"></span>
+                                <span class="code-title">mcpSwiftApp.swift</span>
+                            </div>
+                            <div class="code-content">
+                                <pre><code>import SwiftUI
+
+@main
+struct mcpSwiftApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🤖</span>
+                        <span class="logo-text">灵拓 Lynto</span>
+                    </div>
+                    <p>智能对话，无限可能</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#features">功能特性</a></li>
+                        <li><a href="#download">下载</a></li>
+                        <li><a href="#docs">文档</a></li>
+                        <li><a href="privacy.html">隐私协议</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>文档</h4>
+                    <ul>
+                        <li><a href="docs/USAGE_GUIDE.md">使用指南</a></li>
+                        <li><a href="docs/MCP_CONFIGURATION_GUIDE.md">MCP配置</a></li>
+                        <li><a href="docs/SETUP_INSTRUCTIONS.md">开发设置</a></li>
+                        <li><a href="docs/README.md">技术文档</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><a href="https://github.com/your-repo/Lynto">GitHub</a></li>
+                        <li><a href="mailto:fjsand@163.com">邮箱联系</a></li>
+                        <li><a href="#support">技术支持</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 灵拓 Lynto. 采用 MIT 许可证开源。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
