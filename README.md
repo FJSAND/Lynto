@@ -5,6 +5,13 @@
 ## 📱 关于灵拓 Lynto
 
 灵拓 Lynto 是一款创新的 AI 聊天应用，专为 iPhone 和 iPad 设计，集成了先进的 DeepSeek AI 和 Model Context Protocol (MCP) 技术。
+### 🔗 下载链接
+
+**[从 App Store 下载灵拓 Lynto](https://apps.apple.com/cn/app/%E7%81%B5%E6%8B%93-mcp%E6%9C%8D%E5%8A%A1%E5%AE%9E%E7%8E%B0/id6746976836)**
+
+### ⚡ SSE 服务特性
+
+**便捷的内置 SSE 服务**：应用内已经集成了多种 SSE (Server-Sent Events) 服务，您只需添加相应服务的 Token 就能立即获取相应的 AI 能力和功能扩展，无需复杂配置，即开即用。
 
 ## 🌐 网站功能
 
