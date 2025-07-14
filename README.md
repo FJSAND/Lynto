@@ -1,13 +1,13 @@
-# 灵拓 Lynto - 官方网站 & MCP 服务器
+# 聆拓 Lynto - 官方网站 & MCP 服务器
 
-这是灵拓 Lynto iOS 应用的官方网站代码仓库，同时包含配套的 MCP (Model Context Protocol) 服务器。
+这是聆拓 Lynto iOS 应用的官方网站代码仓库，同时包含配套的 MCP (Model Context Protocol) 服务器。
 
-## 📱 关于灵拓 Lynto
+## 📱 关于聆拓 Lynto
 
-灵拓 Lynto 是一款创新的 AI 聊天应用，专为 iPhone 和 iPad 设计，集成了先进的 DeepSeek AI 和 Model Context Protocol (MCP) 技术。
+聆拓 Lynto 是一款创新的 AI 聊天应用，专为 iPhone 和 iPad 设计，集成了先进的 DeepSeek AI 和 Model Context Protocol (MCP) 技术。
 ### 🔗 下载链接
 
-**[从 App Store 下载灵拓 Lynto](https://apps.apple.com/cn/app/%E7%81%B5%E6%8B%93-mcp%E6%9C%8D%E5%8A%A1%E5%AE%9E%E7%8E%B0/id6746976836)**
+**[从 App Store 下载聆拓 Lynto](https://apps.apple.com/cn/app/%E7%81%B5%E6%8B%93-mcp%E6%9C%8D%E5%8A%A1%E5%AE%9E%E7%8E%B0/id6746976836)**
 
 ### ⚡ SSE 服务特性
 
@@ -23,7 +23,7 @@
 
 ## 🔧 MCP 服务器
 
-本仓库还包含一套完整的 MCP 服务器实现，为灵拓 Lynto 应用提供扩展功能支持。
+本仓库还包含一套完整的 MCP 服务器实现，为聆拓 Lynto 应用提供扩展功能支持。
 
 ## 🚀 快速开始
 
@@ -195,8 +195,8 @@ ws://localhost:8765
 
 ## 📄 许可证
 
-本项目仅用于展示灵拓 Lynto 应用信息，版权所有。
+本项目仅用于展示聆拓 Lynto 应用信息，版权所有。
 
 ---
 
-© 2024 灵拓 Lynto. All rights reserved. 
+© 2024 聆拓 Lynto. All rights reserved. 
