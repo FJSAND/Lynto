@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>灵拓 Lynto - 智能聊天应用</title>
-    <meta name="description" content="灵拓 Lynto - 集成DeepSeek AI和Model Context Protocol的现代iOS聊天应用">
-    <meta name="keywords" content="AI聊天,iOS应用,DeepSeek,MCP,Swift,灵拓,Lynto">
+    <title>聆拓 Lynto - 智能AI助手与工具连接平台</title>
+    <meta name="description" content="聆拓 Lynto是一款强大的AI助手应用，支持DeepSeek和豆包，提供丰富的MCP服务市场和智能工具调用功能。">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,62 +12,68 @@
 </head>
 <body>
     <!-- 导航栏 -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <span class="logo-icon">🤖</span>
-                    <span class="logo-text">灵拓 Lynto</span>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#features">功能特性</a></li>
-                    <li><a href="#download">联系我们</a></li>
-                    <li><a href="#docs">获取应用</a></li>
-                    <li><a href="#about">关于</a></li>
-                    <li><a href="privacy.html">隐私协议</a></li>
-                </ul>
-                <div class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="聆拓 Lynto" class="logo-image">
+                <span class="logo-text">聆拓 Lynto</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">功能特色</a>
+                <a href="#services">MCP服务</a>
+                <a href="#pricing">定价</a>
+                <a href="#download" class="nav-cta">立即下载</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">智能AI助手</span><br>
+                    连接无限可能
+                </h1>
+                <p class="hero-subtitle">
+                    聆拓 Lynto 让您轻松连接 DeepSeek、豆包等AI服务，
+                    通过强大的MCP协议访问丰富的工具生态，
+                    打造属于您的专属AI工作流。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <span>🚀</span>
+                        立即体验
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <span>📱</span>
+                        了解更多
+                    </a>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <!-- 主要内容 -->
-    <main>
-        <!-- 英雄区域 -->
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1 class="hero-title">
-                            智能对话，<br>
-                            <span class="gradient-text">无限可能</span>
-                        </h1>
-                        <p class="hero-description">
-                            灵拓 Lynto 是一款集成了 DeepSeek AI 和 Model Context Protocol 的现代 iOS 聊天应用。
-                            体验前所未有的智能对话，享受流畅的交互体验。
-                        </p>
-                        <div class="hero-buttons">
-                            <a href="#download" class="btn btn-primary">立即下载</a>
-                        </div>
-                    </div>
-                    <div class="hero-image">
-                        <div class="phone-mockup">
-                            <div class="phone-screen">
-                                <div class="chat-preview">
-                                    <div class="chat-message user">
-                                        <div class="message-bubble">你好，请帮我分析一下今天的天气</div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-preview">
+                            <div class="chat-header">
+                                <div class="ai-avatar deepseek"></div>
+                                <span>DeepSeek</span>
+                                <div class="status-indicator"></div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message ai-message">
+                                    <div class="message-content">
+                                        我需要查询一下北京的天气情况
+                                        <div class="tool-call">
+                                            <span class="tool-icon">🌤️</span>
+                                            正在调用天气查询工具...
+                                        </div>
                                     </div>
-                                    <div class="chat-message ai">
-                                        <div class="message-bubble">正在为您获取天气信息...</div>
-                                    </div>
-                                    <div class="typing-indicator">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                </div>
+                                <div class="message user-message">
+                                    <div class="message-content">
+                                        帮我查一下北京今天的天气
                                     </div>
                                 </div>
                             </div>
@@ -76,213 +81,269 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- 功能特性 -->
-        <section id="features" class="features">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">强大的功能特性</h2>
-                    <p class="section-description">为您打造最佳的AI对话体验</p>
+    <!-- 功能特色 -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">强大功能特色</h2>
+                <p class="section-subtitle">为您提供完整的AI助手解决方案</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">多AI模型支持</h3>
+                    <p class="feature-description">
+                        支持 DeepSeek 和豆包等主流AI模型，
+                        享受不同AI的独特能力，深度思考模式让AI更智能。
+                    </p>
                 </div>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">🧠</div>
-                        <h3>DeepSeek AI 集成</h3>
-                        <p>集成先进的DeepSeek AI模型，提供智能、准确的对话体验</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">📱</div>
-                        <h3>现代 SwiftUI 界面</h3>
-                        <p>基于SwiftUI构建的美观现代界面，流畅的用户体验</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔧</div>
-                        <h3>MCP 协议支持</h3>
-                        <p>支持Model Context Protocol，可扩展的工具集成能力</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">⚙️</div>
-                        <h3>JSON 配置导入</h3>
-                        <p>简单粘贴即可添加MCP服务器，配置管理更便捷</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🛠️</div>
-                        <h3>工具测试功能</h3>
-                        <p>直接在应用中测试MCP工具，开发调试更高效</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔒</div>
-                        <h3>安全的密钥管理</h3>
-                        <p>安全的API密钥配置管理，保护您的隐私数据</p>
-                    </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3 class="feature-title">智能工具调用</h3>
+                    <p class="feature-description">
+                        通过MCP协议连接丰富的工具生态，
+                        实时天气、地图导航、数据分析等应有尽有。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏪</div>
+                    <h3 class="feature-title">MCP服务市场</h3>
+                    <p class="feature-description">
+                        探索丰富的MCP服务市场，
+                        一键添加各种专业工具，扩展AI助手能力。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎤</div>
+                    <h3 class="feature-title">语音交互</h3>
+                    <p class="feature-description">
+                        支持语音输入功能，
+                        解放双手，让AI交互更加自然便捷。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">实时流式响应</h3>
+                    <p class="feature-description">
+                        采用流式数据传输技术，
+                        AI回复更快速，用户体验更流畅。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">现代化设计</h3>
+                    <p class="feature-description">
+                        精美的UI设计，毛玻璃效果和渐变色彩，
+                        为您带来赏心悦目的使用体验。
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- 技术栈 -->
-        <section class="tech-stack">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">先进的技术栈</h2>
-                    <p class="section-description">基于现代技术构建，性能卓越</p>
-                </div>
-                <div class="tech-grid">
-                    <div class="tech-item">
-                        <div class="tech-icon">
-                            <img src="https://developer.apple.com/assets/elements/icons/swift/swift-96x96_2x.png" alt="Swift">
-                        </div>
-                        <span>Swift 5.9+</span>
-                    </div>
-                    <div class="tech-item">
-                        <div class="tech-icon">
-                            <img src="https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png" alt="SwiftUI">
-                        </div>
-                        <span>SwiftUI</span>
-                    </div>
-                    <div class="tech-item">
-                        <div class="tech-icon">🌐</div>
-                        <span>URLSession</span>
-                    </div>
-                    <div class="tech-item">
-                        <div class="tech-icon">🔗</div>
-                        <span>MCP SDK</span>
-                    </div>
-                    <div class="tech-item">
-                        <div class="tech-icon">🏗️</div>
-                        <span>MVVM 架构</span>
-                    </div>
-                </div>
+    <!-- MCP服务展示 -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">丰富的MCP服务</h2>
+                <p class="section-subtitle">连接各种专业工具，扩展AI助手能力</p>
             </div>
-        </section>
-
-        <!-- 下载区域 -->
-        <section id="download" class="download">
-            <div class="container">
-                <div class="download-content">
-                    <div class="download-text">
-                        <h2>立即体验灵拓 Lynto</h2>
-                        <p>加入数千名用户，开始您的智能对话之旅</p>
-                        <div class="system-requirements">
-                            <h4>系统要求</h4>
-                            <ul>
-                                <li>iPhone (iOS 15.0+)</li>
-                                <li>iPad (iPadOS 15.0+)</li>
-                                <li>开发需要 Xcode 15.0+</li>
-                            </ul>
+            <div class="services-categories">
+                <div class="service-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🗺️</span>
+                        地图与导航
+                    </h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span class="service-name">高德地图</span>
+                            <span class="service-tag">路径规划</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">腾讯位置</span>
+                            <span class="service-tag">位置服务</span>
                         </div>
                     </div>
-                    <div class="download-buttons">
-                        <a href="mailto:fjsand@163.com" class="btn btn-download">
-                            <span class="download-icon">📧</span>
-                            <div class="download-info">
-                                <span class="download-title">联系开发者</span>
-                                <span class="download-subtitle">获取应用信息</span>
-                            </div>
-                        </a>
-                        <a href="privacy.html" class="btn btn-github">
-                            <span class="download-icon">🔒</span>
-                            <div class="download-info">
-                                <span class="download-title">隐私政策</span>
-                                <span class="download-subtitle">了解数据保护</span>
-                            </div>
-                        </a>
+                </div>
+                <div class="service-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🌤️</span>
+                        生活服务
+                    </h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span class="service-name">聚合数据</span>
+                            <span class="service-tag">天气查询</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">手机归属地</span>
+                            <span class="service-tag">号码查询</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-category">
+                    <h3 class="category-title">
+                        <span class="category-icon">🔍</span>
+                        智能搜索
+                    </h3>
+                    <div class="service-list">
+                        <div class="service-item">
+                            <span class="service-name">AI搜索</span>
+                            <span class="service-tag">智能检索</span>
+                        </div>
+                        <div class="service-item">
+                            <span class="service-name">证券服务</span>
+                            <span class="service-tag">金融数据</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- 获取应用 -->
-        <section id="docs" class="docs">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">如何获取灵拓 Lynto</h2>
-                    <p class="section-description">多种方式了解和获取我们的应用</p>
-                </div>
-                <div class="docs-grid">
-                    <div class="doc-card">
-                        <div class="doc-icon">📧</div>
-                        <h3>邮箱咨询</h3>
-                        <p>发送邮件给我们，了解应用详情和获取方式</p>
-                        <a href="mailto:fjsand@163.com" class="doc-link">发送邮件 →</a>
-                    </div>
-                    <div class="doc-card">
-                        <div class="doc-icon">🔒</div>
-                        <h3>隐私政策</h3>
-                        <p>了解我们如何保护您的隐私和数据安全</p>
-                        <a href="privacy.html" class="doc-link">查看政策 →</a>
-                    </div>
-                    <div class="doc-card">
-                        <div class="doc-icon">📱</div>
-                        <h3>应用特性</h3>
-                        <p>了解灵拓 Lynto 的所有功能和技术亮点</p>
-                        <a href="#features" class="doc-link">查看功能 →</a>
-                    </div>
-                    <div class="doc-card">
-                        <div class="doc-icon">💬</div>
-                        <h3>关于我们</h3>
-                        <p>了解灵拓 Lynto 的开发理念和技术架构</p>
-                        <a href="#about" class="doc-link">了解更多 →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 关于我们 -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2>关于灵拓 Lynto</h2>
-                        <p>
-                            灵拓 Lynto 是一款专业的AI聊天应用，致力于将最新的AI技术带到iOS平台。
-                            我们相信智能对话应该是流畅、安全且可扩展的。
+            <div class="services-highlight">
+                <div class="highlight-card">
+                    <div class="highlight-content">
+                        <h4 class="highlight-title">💎 限时免费服务</h4>
+                        <p class="highlight-description">
+                            部分MCP服务提供限时免费体验，
+                            让您零成本探索AI工具的强大能力。
                         </p>
-                        <p>
-                            通过集成DeepSeek AI和Model Context Protocol，我们为用户提供了一个
-                            功能强大且易于使用的聊天应用，带来前所未有的智能对话体验。
-                        </p>
-                        <div class="stats">
-                            <div class="stat">
-                                <div class="stat-number">AI</div>
-                                <div class="stat-label">智能核心</div>
-                            </div>
-                            <div class="stat">
-                                <div class="stat-number">Swift</div>
-                                <div class="stat-label">原生开发</div>
-                            </div>
-                            <div class="stat">
-                                <div class="stat-number">MCP</div>
-                                <div class="stat-label">协议支持</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-image">
-                        <div class="code-preview">
-                            <div class="code-header">
-                                <span class="code-dot red"></span>
-                                <span class="code-dot yellow"></span>
-                                <span class="code-dot green"></span>
-                                <span class="code-title">mcpSwiftApp.swift</span>
-                            </div>
-                            <div class="code-content">
-                                <pre><code>import SwiftUI
-
-@main
-struct mcpSwiftApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}</code></pre>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <!-- 动态MCP服务 -->
+    <section id="dynamic-services" class="dynamic-services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">实时MCP服务</h2>
+                <p class="section-subtitle">动态加载最新的免费和推荐MCP服务</p>
+            </div>
+            
+            <!-- 免费MCP服务 -->
+            <div class="free-services-section">
+                <h3 class="service-section-title">
+                    <span class="section-icon">🎁</span>
+                    限时免费服务
+                </h3>
+                <div id="free-mcp-grid" class="mcp-services-grid">
+                    <div class="loading-placeholder">
+                        <div class="loading-spinner"></div>
+                        <p>正在加载免费服务...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 推荐MCP服务 -->
+            <div class="recommended-services-section">
+                <h3 class="service-section-title">
+                    <span class="section-icon">⭐</span>
+                    推荐服务
+                </h3>
+                <div id="recommended-mcp-grid" class="mcp-services-grid">
+                    <div class="loading-placeholder">
+                        <div class="loading-spinner"></div>
+                        <p>正在加载推荐服务...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 定价方案 -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">灵活的定价方案</h2>
+                <p class="section-subtitle">选择最适合您的使用方式</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">免费体验</h3>
+                        <div class="pricing-price">
+                            <span class="currency">¥</span>
+                            <span class="amount">0</span>
+                            <span class="period">/月</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">✅ 限时免费DeepSeek Token</div>
+                        <div class="feature">✅ 基础MCP服务</div>
+                        <div class="feature">✅ 语音输入功能</div>
+                        <div class="feature">✅ 社区支持</div>
+                    </div>
+                    <a href="#download" class="pricing-button">立即下载</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">推荐</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">自定义配置</h3>
+                        <div class="pricing-price">
+                            <span class="currency">自</span>
+                            <span class="amount">定义</span>
+                            <span class="period">费用</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <div class="feature">🚀 使用自己的AI Token</div>
+                        <div class="feature">🛠️ 无限MCP服务连接</div>
+                        <div class="feature">⚡ 高级工具调用</div>
+                        <div class="feature">🎯 个性化配置</div>
+                        <div class="feature">📞 优先技术支持</div>
+                    </div>
+                    <a href="#download" class="pricing-button">开始使用</a>
+                </div>
+            </div>
+            <div class="pricing-note">
+                <p>💡 您可以使用自己的AI服务Token，享受完全自主的使用体验</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载区域 -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="download-title">立即开始您的AI之旅</h2>
+                <p class="download-subtitle">
+                    下载聆拓 Lynto，体验最先进的AI助手与工具连接平台
+                </p>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn ios">
+                        <div class="btn-icon">📱</div>
+                        <div class="btn-text">
+                            <span class="btn-label">Download on the</span>
+                            <span class="btn-store">App Store</span>
+                        </div>
+                    </a>
+                    <a href="#" class="download-btn github">
+                        <div class="btn-icon">⚡</div>
+                        <div class="btn-text">
+                            <span class="btn-label">Get it on</span>
+                            <span class="btn-store">GitHub</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="download-note">
+                    <p>🔒 安全可靠 · 🆓 完全免费 · 🌟 开源项目</p>
+                </div>
+                
+                <!-- 服务群信息 -->
+                <div class="service-group">
+                    <h3 class="service-group-title">加入服务群获取支持</h3>
+                    <p class="service-group-subtitle">扫描二维码加入官方服务群，获取使用帮助和最新资讯</p>
+                    <div class="qr-code-container">
+                                            <img src="https://lynto-1366058026.cos.ap-shanghai.myqcloud.com/lynto_service.jpg" alt="聆拓服务群二维码" class="qr-code">
+                    <p class="qr-code-caption">聆拓官方服务群</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 页脚 -->
     <footer class="footer">
@@ -290,40 +351,44 @@ struct mcpSwiftApp: App {
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <span class="logo-icon">🤖</span>
-                        <span class="logo-text">灵拓 Lynto</span>
+                                        <img src="logo.png" alt="聆拓 Lynto" class="footer-logo-image">
+                <span class="logo-text">聆拓 Lynto</span>
                     </div>
-                    <p>智能对话，无限可能</p>
+                    <p class="footer-description">
+                        连接AI与工具的智能平台，
+                        让每个人都能轻松构建强大的AI工作流。
+                    </p>
                 </div>
                 <div class="footer-section">
-                    <h4>快速链接</h4>
-                    <ul>
-                        <li><a href="#features">功能特性</a></li>
-                        <li><a href="#download">联系我们</a></li>
-                        <li><a href="#docs">获取应用</a></li>
-                        <li><a href="privacy.html">隐私协议</a></li>
+                    <h4 class="footer-title">产品</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">功能特色</a></li>
+                        <li><a href="#services">MCP服务</a></li>
+                        <li><a href="#pricing">定价方案</a></li>
+                        <li><a href="#download">立即下载</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>了解更多</h4>
-                    <ul>
-                        <li><a href="#about">关于我们</a></li>
-                        <li><a href="#features">功能特性</a></li>
-                        <li><a href="privacy.html">隐私政策</a></li>
-                        <li><a href="mailto:fjsand@163.com">邮箱咨询</a></li>
+                    <h4 class="footer-title">支持</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">用户指南</a></li>
+                        <li><a href="#">技术文档</a></li>
+                        <li><a href="#">社区论坛</a></li>
+                        <li><a href="#">联系我们</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>联系我们</h4>
-                    <ul>
-                        <li><a href="mailto:fjsand@163.com">邮箱联系</a></li>
-                        <li><a href="privacy.html">隐私政策</a></li>
-                        <li><a href="#about">关于我们</a></li>
+                    <h4 class="footer-title">关于</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">项目介绍</a></li>
+                        <li><a href="#">开源协议</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">服务条款</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 灵拓 Lynto. 保留所有权利。</p>
+                <p>&copy; 2024 聆拓 Lynto. All rights reserved. Made with ❤️ for AI enthusiasts.</p>
             </div>
         </div>
     </footer>
